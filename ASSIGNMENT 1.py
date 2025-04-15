@@ -1,10 +1,10 @@
-# Task 1: Perform Basic Mathematical Operations
+# Task 1:Basic Mathematical Operations
 
-# Take two numbers as input from the user
+# two numbers as input from the user
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
-# Perform the basic mathematical operations
+#basic mathematical operations
 addition = num1 + num2
 subtraction = num1 - num2
 multiplication = num1 * num2
@@ -16,7 +16,21 @@ else:
 
 # Display the results
 print("\nResults:")
-print(f"Addition: {num1} + {num2} = {addition}")
-print(f"Subtraction: {num1} - {num2} = {subtraction}")
-print(f"Multiplication: {num1} * {num2} = {multiplication}")
-print(f"Division: {num1} / {num2} = {division}")
+print(f"Addition:  {addition}")
+print(f"Subtraction: {subtraction}")
+print(f"Multiplication:{multiplication}")
+print(f"Division:{division}")
+
+
+
+# Task 2: Create a Personalized Greeting
+
+# first and last name as input
+first_name = input("Enter your first name: ").strip()
+last_name = input("Enter your last name: ").strip()
+
+# Concatenate into full name
+full_name = f"{first_name} {last_name}"
+
+# Print personalized greeting
+print(f"\nHello, {full_name}! Welcome to the program. Have a great day!")
