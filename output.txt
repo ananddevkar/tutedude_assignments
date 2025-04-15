@@ -1,2 +1,2 @@
-This is a simple text file.
-It contains multiple files.
+Hello, Python! Data successfully written to output.txt.
+Learning file handeling in python. Data successfully appended.
