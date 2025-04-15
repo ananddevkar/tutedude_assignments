@@ -20,6 +20,7 @@ read_file("sample.txt")
 
 print('\n')
 
+
 # Task 2: Write and Append Data to a File
 
 
