@@ -26,8 +26,8 @@ print(f"Division:{division}")
 # Task 2: Create a Personalized Greeting
 
 # first and last name as input
-first_name = input("Enter your first name: ").strip()
-last_name = input("Enter your last name: ").strip()
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
 
 # Concatenate into full name
 full_name = f"{first_name} {last_name}"
